@@ -31,23 +31,29 @@ const speakers = [
 const InvitedSpeakers = () => (
   <section style={{ padding: '20px', maxWidth: '800px', margin: 'auto' }}>
 
-<h2 style={{
-  textAlign: 'center',
-  marginBottom: '20px',
-  color: '#7A7A7A',
-  textShadow: '0px 4px 4px rgba(0, 0, 0, 0.25)',
-  WebkitTextStrokeWidth: '1px',
-  WebkitTextStrokeColor: 'rgba(0, 0, 0, 0)',
-  fontFamily: 'Inter, bold',
-  fontSize: '64px',
-  fontStyle: 'normal',
-  fontWeight: 700,
-  lineHeight: 'normal'
-}}>
-  Invited Speakers
-</h2>
+    <h2 style={{
+    textAlign: 'center',
+    marginBottom: '20px',
+    color: '#7A7A7A',
+    textShadow: '0px 4px 4px rgba(0, 0, 0, 0.25)',
+    WebkitTextStrokeWidth: '1px',
+    WebkitTextStrokeColor: 'rgba(0, 0, 0, 0)',
+    fontFamily: 'Inter, bold',
+    fontSize: '64px',
+    fontStyle: 'normal',
+    fontWeight: 700,
+    lineHeight: 'normal'
+    }}>
+    Invited Speakers
+    </h2>
 
-
+    <hr style={{
+    border: 'none',
+    borderTop: '2px solid #7A7A7A', 
+    width: '100%',
+    margin: '20px auto',
+    color: '#000' 
+    }} />
 
     <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'space-around' }}>
       {speakers.map((speaker, index) => (
