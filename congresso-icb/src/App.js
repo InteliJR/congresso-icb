@@ -17,7 +17,7 @@ function App() {
   };
 
   const handleClick = () => {
-    window.location.href = "https://www.instagram.com/";
+    window.location.href = "https://forms.gle/UibDKTz8EYf1eD7j9";
   };
   return (
     <div>
