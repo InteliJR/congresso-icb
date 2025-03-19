@@ -46,6 +46,7 @@ function App() {
         <img src={imagem} alt="Imagem representativa da conferência" className="h-32 md:h-48 object-contain" />
       </div>
       
+      {/* 
       <div className="flex flex-col items-center justify-center py-4 md:py-8 px-4 text-center">
         <h1 className="text-lg md:text-xl font-medium text-[#00708A] uppercase tracking-wide mb-4 md:mb-6">
           CLICK THE BUTTON BELOW TO SUBSCRIBE
@@ -56,7 +57,8 @@ function App() {
         >
           SUBSCRIBE
         </button>
-      </div>
+      </div> 
+      */}
 
       <div className="mt-6 md:mt-8 px-4 md:px-8 lg:px-16" ref={aboutRef}>
         <h1 className="text-2xl md:text-3xl font-inter font-bold text-gray-700 text-center">About The Meeting</h1>
